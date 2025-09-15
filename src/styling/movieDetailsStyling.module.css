@@ -1,0 +1,87 @@
+.container {
+}
+.backImg {
+  width: 100vw;
+  height: 500px;
+  opacity: 0.5;
+}
+.poster {
+  border-radius: 20px;
+  /* box-shadow: 10px 40px 100px rgba(0, 0, 0, 0.4); */
+}
+.content {
+  position: relative;
+  bottom: 22rem;
+  display: flex;
+  flex-direction: row;
+  padding: 4rem;
+  /* padding-bottom: 20rem; */
+}
+.data {
+  padding-left: 1.5rem;
+}
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.tagLine {
+  font-size: 1.5rem;
+  padding-bottom: 1.2rem;
+  font-style: italic;
+}
+.genre {
+  border-radius: 50px;
+  border: 2px solid #ffcce6;
+  background-color: #000d1a;
+  padding: 0.5rem;
+  display: inline;
+  list-style-type: none;
+}
+.desc {
+  width: 75%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.cast {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  width: 90px;
+  margin-right: 1rem;
+}
+.img {
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  width: 90px;
+}
+.videos {
+  position: relative;
+  bottom: 18rem;
+  margin-bottom: 2rem;
+}
+.videos:last-of-type {
+  /* padding-bottom: -10rem; */
+  /* TODO:add it to the end of simialr show  */
+}
+.head {
+  font-size: 1.3rem;
+  margin: 1rem;
+}
+.collection {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0;
+}
+.padding {
+  position: relative;
+  bottom: 12rem;
+  margin-bottom: -9rem;
+}
+.moreSeasons {
+  text-align: center;
+  margin: auto auto;
+  font-size: 2rem;
+}

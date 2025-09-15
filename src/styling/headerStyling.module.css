@@ -1,0 +1,44 @@
+.head {
+  width: 100vw;
+  height: 13vh;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  backdrop-filter: blur(10px);
+  border-bottom: #ffb3d9 2px solid;
+  background: local;
+  position: fixed;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+}
+.name {
+  font-size: 2.5rem;
+  color: #cc0066;
+  margin: 1rem;
+  display: inline-block;
+  position: relative;
+  bottom: 1rem;
+  padding-top: 1rem;
+}
+.logo {
+  margin-left: 9rem;
+  padding-top: 1rem;
+}
+.navBar {
+  display: inline;
+  float: right;
+  margin: 2rem 2rem;
+}
+.navItem {
+  text-decoration: none;
+  color: #ff80bf;
+  padding: 0.5rem;
+  margin-left: 1rem;
+}
+.active {
+  border-bottom: 3px solid #e60073;
+  color: #e60073;
+}
+.notActive {
+  border-bottom: none;
+  color: #ff80bf;
+}

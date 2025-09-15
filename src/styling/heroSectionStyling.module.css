@@ -1,0 +1,71 @@
+body {
+  color: #ffe6f3;
+}
+.container {
+  display: flex;
+  padding: 2rem;
+  padding-top: 8rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(45, 45, 45, 0.8);
+  background-blend-mode: overlay;
+  user-select: none;
+}
+.flimName {
+  font-size: 3rem;
+}
+.overview {
+  padding: 2rem;
+  margin-right: 10rem;
+}
+.watchBtn,
+.watchTrailerBtn {
+  padding: 1rem;
+  border-radius: 25px;
+  background-color: transparent;
+  border: 2px white solid;
+  font-size: 1rem;
+  margin-top: 6rem;
+  text-decoration: none;
+  color: #ffe6f3;
+}
+.watchBtn:hover,
+.watchTrailerBtn:hover {
+  cursor: pointer;
+}
+.watchTrailerBtn:hover {
+  background-color: #ff0080;
+  color: whitesmoke;
+}
+.watchBtn {
+  margin-right: 5rem;
+  border: 3px solid #cc0066;
+  margin-left: 3rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.watchBtn:hover {
+  background-color: #cc0066;
+  color: whitesmoke;
+}
+.poster {
+  border-radius: 50px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin-right: 6rem;
+  -webkit-user-drag: none; /* For WebKit browsers (Chrome, Safari) */
+  pointer-events: none;
+  /* animation: move forwards 2s ease-in; */
+}
+.op {
+  animation: move forwards 2s ease-in;
+}
+@keyframes move {
+  from {
+    transform: translateY(-400px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}

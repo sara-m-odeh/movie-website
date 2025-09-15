@@ -1,0 +1,69 @@
+.container {
+  width: 19rem;
+  /* height: 20%; */
+  margin: 1rem;
+  text-align: center;
+  &:hover h3 {
+    color: #b30059; /* Change h3 color on parent hover */
+  }
+}
+.hoveredImage {
+  opacity: 0.5;
+}
+.image,
+.hoveredImage {
+  border-radius: 50px;
+  margin-bottom: 0.5rem;
+  width: 220px;
+}
+.container:hover,
+.hovring:hover {
+  cursor: pointer;
+}
+.favBtn,
+.watchBtn,
+.favedShow {
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 1rem;
+  border: none;
+  font-size: 1.2rem;
+  position: absolute;
+  color: #ffe6f3;
+}
+.watchBtn {
+  background-color: #b30059;
+  right: 7rem;
+  top: 10rem;
+  display: block;
+}
+.favBtn {
+  background-color: #f86fb4;
+  right: 7rem;
+  top: 6rem;
+}
+.watchBtn:hover {
+  background-color: #6c0136;
+}
+.favBtn:hover {
+  background-color: #fc47a1;
+}
+.favedShow {
+  right: 7rem;
+  top: 6rem;
+  color: #ed1280;
+  background-color: #fbd0e6;
+  &:hover {
+    background-color: #f9b9da;
+  }
+}
+.hovring {
+  /* height: 20%; */
+  width: 19rem;
+  margin: 1rem;
+  text-align: center;
+  position: relative;
+  &:hover h3 {
+    color: #b30059; /* Change h3 color on parent hover */
+  }
+}
