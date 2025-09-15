@@ -30,7 +30,7 @@ const HeroSection = () => {
     )
       .then((res) => res.json())
       .then((data) => {
-        data.results.forEach((video) => {
+        data.results?.forEach((video) => {
           if (video.type == "Trailer") setTrailer(video.key);
         });
       });
@@ -72,3 +72,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
